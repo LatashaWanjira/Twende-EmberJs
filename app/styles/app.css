@@ -1,0 +1,56 @@
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+#header {
+    background: linear-gradient(rgba(128, 0, 0, 0.3), rgba(128, 0, 0, 0.3)), url(/assets/images/traffic.jpg);
+    background-size: cover;
+    height: 672px;
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+#header h1 {
+    font-size: 200px;
+    padding-top: 200px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+}
+#header h3 {
+    margin-left: 35%;
+    width: 30%;
+    font-size: 30px;
+    padding: 10px;
+}
+.glyphicon-menu-down {
+    padding-top: 100px;
+    font-size: 30px;
+}
+.navbar-default {
+    /*    background: linear-gradient(rgba(128, 0, 0, 0.5), rgba(128, 0, 0, 0.5));*/
+    background-color: white;
+    border: 0;
+    margin: 0;
+    padding: 5px;
+    font-size: 17px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: white;
+    background-color: #800000;
+    /*Sets the text hover color on navbar*/
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #800000;
+    background-color: #ffffff;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+    color: #800000;
+}
+.navbar-default .navbar-brand {
+    font-size: 25px;
+    margin-right: 800px;
+}
