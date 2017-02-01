@@ -1,6 +1,6 @@
 /* jshint node: true */
 
-module.exports = function(environment) {
+module.exports = function (environment) {
   var ENV = {
     modulePrefix: 'twende-ember-js',
     environment: environment,
@@ -16,6 +16,14 @@ module.exports = function(environment) {
         Date: false
       }
     },
+
+    firebase: {
+    apiKey: "AIzaSyBa9-KdQhlphRW7KxWnP76c0UazulF0sj8",
+    authDomain: "twende-7e6ac.firebaseapp.com",
+    databaseURL: "https://twende-7e6ac.firebaseio.com",
+    storageBucket: "twende-7e6ac.appspot.com",
+    },
+
 
     APP: {
       // Here you can pass flags/options to your application instance
