@@ -66,14 +66,17 @@ body {
     margin-right: 800px;
 }
 
-
-/*
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    html {
-        background-color: pink;
-    }
+.col-md-10 {
+    background-color: white;
 }
-*/
+
+.blackdriver2 {
+    float: left;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 5%;
+    box-shadow: lightcoral;
+}
 
 #footer {
     background: linear-gradient(rgba(128, 0, 0, 0.3), rgba(128, 0, 0, 0.3)), url(/assets/images/footer.jpg);
