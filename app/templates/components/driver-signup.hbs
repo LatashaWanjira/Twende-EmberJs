@@ -1,0 +1,45 @@
+{{#if addNewDriver}}
+    <br> <center><h2>New Driver:</h2></center> <br>
+    <div>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                {{input value=name id="name"}}
+            </div>
+
+            <div class="form-group">
+                <label for="residence">Residence:</label>
+                {{input value=residence id="residence"}}
+            </div>
+
+            <div class="form-group">
+                <label for="route">Route:</label>
+                {{input value=route id="route"}}
+            </div>
+
+            <div class="form-group">
+                <label for="time">Time:</label>
+                {{input value=time id="time"}}
+            </div>
+
+            <div class="form-group">
+                <label for="car">Car:</label>
+                {{input value=car id="car"}}
+            </div>
+
+            <div class="form-group">
+                <label for="registration">Registration:</label>
+                {{input value=registration id="registration"}}
+            </div>
+
+            <div class="form-group">
+                <label for="space">Space:</label>
+                {{input value=space id="space"}}
+            </div>
+
+            <center><button {{action 'saveDriver'}}>Save</button></center>
+        </form>
+    </div>
+{{else}}
+    <center><button{{action 'driverFormShow'}}>New Driver</button></center>
+{{/if}}

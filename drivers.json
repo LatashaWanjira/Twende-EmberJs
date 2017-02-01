@@ -1,0 +1,52 @@
+{
+  "drivers": [{
+      "name": "James",
+      "residence": "Kinoo",
+      "route": "Kinoo to Ngong Lane Plaza",
+      "time": "0600hrs to 0730hrs",
+      "car": "Moonbeam",
+      "registration": "KBZ2019V",
+      "space": 2
+    }, {
+      "name": "Tasha",
+      "residence": "South-C",
+      "route": "South-C to Ngong Lane Plaza",
+      "time": "0630hrs to 0800hrs",
+      "car": "Jeep",
+      "registration": "KCA218P",
+      "space": 4
+    }, {
+        "name": "Ruth",
+        "residence": "Lang'ata",
+        "route": "Lang'ata to Ngong Lane Plaza",
+        "time": "0640hrs to 0730hrs",
+        "car": "Volkswagen Beetle",
+        "registration": "KXY712",
+        "space": 2
+    }, {
+        "name": "Agnes",
+        "residence": "South-B",
+        "route": "South-B to CBD",
+        "time": "0615hrs to 0720hrs",
+        "car": "BMW 118",
+        "registration": "KCG195V",
+        "space": 1
+    },{
+        "name": "Nomz",
+        "residence": "Greenfields",
+        "route": "Greenfields to CBD",
+        "time": "0610hrs to 0800hrs",
+        "car": "Land-Rover Defender",
+        "registration": "KXY201",
+        "space": 3
+    }, {
+        "name": "Kahu",
+        "residence": "Muthiga",
+        "route": "Muthiga to Westlands",
+        "time": "2100hrs to 2300hrs",
+        "car": "Toyota Land Cruiser",
+        "registration": "KCD213T",
+        "space": 2
+    }]
+    
+}
