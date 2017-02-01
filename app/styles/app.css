@@ -1,3 +1,118 @@
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+#header {
+    background: linear-gradient(rgba(128, 0, 0, 0.3), rgba(128, 0, 0, 0.3)), url(/assets/images/traffic.jpg);
+    background-size: cover;
+    height: 672px;
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+
+#header h1 {
+    font-size: 200px;
+    padding-top: 200px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+}
+
+#header h3 {
+    margin-left: 35%;
+    width: 30%;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.glyphicon-menu-down {
+    padding-top: 100px;
+    font-size: 30px;
+}
+
+.navbar-default {
+    /*    background: linear-gradient(rgba(128, 0, 0, 0.5), rgba(128, 0, 0, 0.5));*/
+    background-color: white;
+    border: 0;
+    margin: 0;
+    padding: 5px;
+    font-size: 17px;
+    border-bottom: 2px solid #800000;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: white;
+    background-color: #800000;
+    /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #800000;
+    background-color: #ffffff;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+    color: #800000;
+}
+
+.navbar-default .navbar-brand {
+    font-size: 25px;
+    margin-right: 800px;
+}
+
+
+/*
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    html {
+        background-color: pink;
+    }
+}
+*/
+
+#footer {
+    background: linear-gradient(rgba(128, 0, 0, 0.3), rgba(128, 0, 0, 0.3)), url(/assets/images/footer.jpg);
+    background-size: cover;
+    /*    height: 250px;
+*/
+    text-align: center;
+    margin: 0;
+    color: white;
+    padding-top: 40px;
+    line-height: 20px;
+    font-size: 18px;
+}
+
+#footer input {
+    margin-bottom: 10px;
+}
+
+#footer button {
+    margin-bottom: 15px;
+}
+
+#footer ul {
+    list-style: none;
+}
+
+.foot p {
+    text-align: right;
+    background: linear-gradient(rgba(128, 0, 0, 0.5), rgba(128, 0, 0, 0.5));
+    margin: 0;
+    padding: 10px;
+}
+
+
+/*
+.newsletter-subscription {
+    width: 60%;
+}
+*/
 .intro {
     text-align: center; 
 }
