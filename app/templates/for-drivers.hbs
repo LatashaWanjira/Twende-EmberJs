@@ -1,55 +1,53 @@
-
-<nav class="navbar navbar-default">
+<nav class="navbar-route navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">TWENDE</a>
         </div>
-        <ul class="nav navbar-nav">
-            <li class="active"><a href="http://localhost:4200/">Home</a></li>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="active "><a href="http://localhost:4200/">Home</a></li>
             <li><a href="http://localhost:4200/for-drivers">For Drivers</a></li>
             <li><a href="http://localhost:4200/for-passengers">For Passengers</a></li>
         </ul>
     </div>
 </nav>
-<h1>
-        <center>Twende: Car Owners</center>
-    </h1>
-    <h3>
-        <center>Share Your Car and Earn Some Extra Money!</center>
-    </h3> <br>
 
-    <div class="container" id="intro">
-        <div>
-            <h2>
-                <center>A grand opportunity to create a new source of Income</center>
-            </h2> <br>
+    <div class="container">
+        <h1>Twende: Car Owners</h1>
+        <h2>- Share Your Car and Earn Some Extra Money -</h2>
+        <h3>A grand opportunity to create a new source of Income</h3> <br>
+        <p>Here's your opportunity to meet new people and form lasting relationships as you create a solid income source for yourself.</p>
+        <p>Once you join in on Twende's group of drivers, you'll be able to share your route for passengers to see and take a lift with you.</p>
+        <p>Remember, you're able to forge a relationship and work out a schedule you'll be using for your daily commute.</p>
+        <p>Aside from saving money on fuel costs, car pooling could ultimately be the answer to reducing traffic congestions in your city.</p><br>
+    </div>
 
-            <center>
-                <h4>Here's your opportunity to meet new people and form lasting relationships as you create a solid income source
-                    for yourself</h4>
-            </center>
-            <center>
-                <h4>Once you join in on Twende's group of drivers, you'll be able to share your route for passengers to see and
-                    take a lift with you</h4>
-            </center>
-            <center>
-                <h4>Remember, you're able to forge a relationship and work out a schedule you'll be using for your daily commute</h4>
-            </center>
-            <center>
-                <h4>Aside from saving money on fuel costs, car pooling could ultimately be the answer to reducing traffic congestions
-                    in your city</h4>
-            </center> <br>
+    {{driver-signup saveDriver="saveDriver"}} <br>
 
-            <br>
-            <center><a href="#" class="driver-signup">Sign Up Now!</a></center> <br> {{driver-signup saveDriver="saveDriver"}} <br>
-
-            <center>
-                <h4>Car owners who have signed up with Twende:</h4>
-            </center>
-
+<div class="container-fluid">
+        <button class="driver-button" data-toggle="collapse" data-target="#show-drivers">Show Driver List</button>
+    <div class="info">
+        <div id="show-drivers" class="collapse">
             <ul>
                 {{#each model as |driver|}} {{show-drivers driver=driver}} {{/each}}
-            </ul>
-            
+            </ul> 
         </div>
     </div>
+</div>
+
+<div id="footer">
+    <div class="newsletter-subscription">
+        <label for="newsletter">Subscribe to our Newsletter</label>
+        <br>
+        {{input value=newsletter id="newsletter" placeholder="Your E-Mail Address"}}
+        <br>
+        <button {{action 'subscribe'}}>Subscribe</button>
+    </div>
+    <div>
+        <h3>Contact us:</h3>
+        <p><span class="glyphicon glyphicon-earphone"></span> <strong>CALL</strong> : +254 721 467 931</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> <strong>EMAIL</strong> : twende@gmail.com</p>
+    </div>
+    <div class="foot">
+         <p>TWENDE 2017</p>
+    </div>
+</div>
