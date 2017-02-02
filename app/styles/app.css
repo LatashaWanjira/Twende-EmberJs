@@ -1,13 +1,20 @@
-
 body {
     font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+    font-size: 20px;
 }
+
+h1 {
+    padding-top: 60px;
+}
+
+
+/*Header styling*/
 
 #header {
     background: linear-gradient(rgba(128, 0, 0, 0.3), rgba(128, 0, 0, 0.3)), url(/assets/images/traffic.jpg);
     background-size: cover;
     height: 672px;
-    text-align: center;
     margin: 0;
     color: white;
 }
@@ -33,7 +40,6 @@ body {
 }
 
 .navbar-default {
-    /*    background: linear-gradient(rgba(128, 0, 0, 0.5), rgba(128, 0, 0, 0.5));*/
     background-color: white;
     border: 0;
     margin: 0;
@@ -46,7 +52,6 @@ body {
 .navbar-default .navbar-nav > li > a:focus {
     color: white;
     background-color: #800000;
-    /*Sets the text hover color on navbar*/
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -63,27 +68,95 @@ body {
 
 .navbar-default .navbar-brand {
     font-size: 25px;
-    margin-right: 800px;
 }
 
 .col-md-10 {
     background-color: white;
 }
 
-.blackdriver2 {
-    float: left;
-    max-width: 400px;
-    max-height: 400px;
-    margin: 5%;
-    box-shadow: lightcoral;
+
+/*For drivers page styling*/
+
+.info {
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
+
+.driver-button,
+.driver-button2 {
+    background-color: #800000;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.driver-button {
+    padding: 20px;
+}
+
+.driver-button2 {
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.driver-button:hover {
+    background-color: #008080;
+}
+
+.form-group {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20%;
+}
+
+.form-group input {
+    border: 0;
+    border-bottom: 0.5px solid #000000;
+    width: 75%;
+}
+
+.driver-signup {
+    background: linear-gradient(rgba(128, 0, 0, 0.3), rgba(128, 0, 0, 0.3)), url(/assets/images/traffic.jpg);
+    height: 900px;
+}
+
+.driver-signup h1 {
+    color: white;
+    padding: inherit;
+}
+
+form {
+    border-top: 2px solid #800000;
+    border-bottom: 2px solid #800000;
+    border-radius: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: white;
+    width: 75%;
+    margin-left: 12.5%
+}
+
+label {
+    font-weight: normal;
+}
+
+.driver-signup {
+    background-color: white;
+    padding: 20px;
+}
+
+ul {
+    text-align: left;
+}
+
+
+/*Footer styling*/
 
 #footer {
     background: linear-gradient(rgba(128, 0, 0, 0.3), rgba(128, 0, 0, 0.3)), url(/assets/images/footer.jpg);
     background-size: cover;
-    /*    height: 250px;
-*/
-    text-align: center;
     margin: 0;
     color: white;
     padding-top: 40px;
@@ -93,10 +166,22 @@ body {
 
 #footer input {
     margin-bottom: 10px;
+    border: 0;
+    padding: 10px;
+    width: 25%;
 }
 
 #footer button {
     margin-bottom: 15px;
+    padding: 7px;
+    background-color: #008080;
+    /*    border: 2px solid grey;
+*/
+    box-shadow: 1px solid grey;
+}
+
+#footer button:hover {
+    background-color: #800000;
 }
 
 #footer ul {
@@ -105,66 +190,7 @@ body {
 
 .foot p {
     text-align: right;
-    background: linear-gradient(rgba(128, 0, 0, 0.5), rgba(128, 0, 0, 0.5));
+    background: linear-gradient(rgba(128, 0, 0, 0.2), rgba(128, 0, 0, 0.7));
     margin: 0;
     padding: 10px;
 }
-
-
-/*
-.newsletter-subscription {
-    width: 60%;
-}
-*/
-.intro {
-    text-align: center; 
-}
-
-body {
-    font-family: default;
-}
-.driver-signup {
-	-moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
-	box-shadow:inset 0px 1px 0px 0px #cf866c;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #9e2e0f), color-stop(1, #bc3315));
-	background:-moz-linear-gradient(top, #9e2e0f 5%, #bc3315 100%);
-	background:-webkit-linear-gradient(top, #9e2e0f 5%, #bc3315 100%);
-	background:-o-linear-gradient(top, #9e2e0f 5%, #bc3315 100%);
-	background:-ms-linear-gradient(top, #9e2e0f 5%, #bc3315 100%);
-	background:linear-gradient(to bottom, #9e2e0f 5%, #bc3315 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9e2e0f', endColorstr='#bc3315',GradientType=0);
-	background-color:#9e2e0f;
-	-moz-border-radius:6px;
-	-webkit-border-radius:6px;
-	border-radius:6px;
-	border:1px solid #942911;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Verdana;
-	font-size:28px;
-	font-weight:bold;
-	padding:32px 76px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #401705;
-}
-.driver-signup:hover {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc3315), color-stop(1, #9e2e0f));
-	background:-moz-linear-gradient(top, #bc3315 5%, #9e2e0f 100%);
-	background:-webkit-linear-gradient(top, #bc3315 5%, #9e2e0f 100%);
-	background:-o-linear-gradient(top, #bc3315 5%, #9e2e0f 100%);
-	background:-ms-linear-gradient(top, #bc3315 5%, #9e2e0f 100%);
-	background:linear-gradient(to bottom, #bc3315 5%, #9e2e0f 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc3315', endColorstr='#9e2e0f',GradientType=0);
-	background-color:#bc3315;
-}
-.driver-signup:active {
-	position:relative;
-	top:1px;
-}
-
-.form-group {
-    text-align: center;
-}
-
