@@ -75,6 +75,7 @@ h1 {
 }
 
 
+
 /*For drivers page styling*/
 
 .info {
@@ -120,6 +121,7 @@ h1 {
 .driver-signup {
     background: linear-gradient(rgba(128, 0, 0, 0.3), rgba(128, 0, 0, 0.3)), url(/assets/images/traffic.jpg);
     height: 900px;
+
 }
 
 .driver-signup h1 {

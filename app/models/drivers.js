@@ -7,5 +7,7 @@ export default DS.Model.extend({
     time: DS.attr(),
     car: DS.attr(),
     registration: DS.attr(),
-    space: DS.attr()
+    picture: DS.attr(),
+    space: DS.attr(),
+    passengers: DS.hasMany('passenger', {async: true})
 });

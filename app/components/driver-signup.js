@@ -16,6 +16,7 @@ export default Ember.Component.extend({
                 time: this.get('time'),
                 car: this.get('car'),
                 registration: this.get('registration'),
+                picture: this.get('picture'),
                 space: this.get('space')
             };
             
