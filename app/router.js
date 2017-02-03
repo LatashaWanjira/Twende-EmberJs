@@ -9,6 +9,7 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('for-drivers');
   this.route('for-passengers');
-});
+  this.route('passengers', {path: '/passengers/:driver_id'});
+  });
 
 export default Router;

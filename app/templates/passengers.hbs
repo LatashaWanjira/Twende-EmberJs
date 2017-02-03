@@ -1,0 +1,30 @@
+<br>
+
+<br>
+
+<br>
+
+<div class="container">
+
+    <center>
+        <h1>Twende: Car owner and Passenger Linking</h1>
+    </center> <br>
+    <center>
+        <h4>You have chosen <b>{{model.name}}</b>.</h4> <br></center>
+
+    <center><img src="{{model.picture}}"></center> <br>
+
+    <center>
+        <h4> Here is <b>{{model.name}}'s</b> current list of passengers:</h4> <br></center>
+
+    <ul>
+        {{#each model.passengers as |passenger|}} {{showpassengers-list passenger=passenger}} {{/each}}
+    </ul>
+
+    {{passenger-signup savePassenger2="savePassenger3" drivers=model}}
+
+
+    <br> <center>
+        <h4>Keep in mind that he only has space for a total of <b>{{model.space}}</b></h4>
+    </center>
+</div>

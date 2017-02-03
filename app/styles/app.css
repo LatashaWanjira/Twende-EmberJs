@@ -81,7 +81,6 @@ h2{
     background-color: white;
 }
 
-
 /*Index page styling*/
 
 /*Carousel styling*/
@@ -124,6 +123,7 @@ h2{
     text-align: center;
     color: #800000;
 }
+
 /*For drivers page styling*/
 
 .info {
@@ -169,6 +169,7 @@ h2{
 .driver-signup {
     background: linear-gradient(rgba(128, 0, 0, 0.3), rgba(128, 0, 0, 0.3)), url(/assets/images/traffic.jpg);
     height: 900px;
+
 }
 
 .driver-signup h1 {

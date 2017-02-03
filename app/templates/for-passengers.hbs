@@ -11,7 +11,55 @@
     </div>
 </nav>
 
-<div id="footer">
+<div class="col-md-12">
+
+    <center>
+        <h1>Twende: For Passengers</h1>
+    </center>
+
+    <center>
+        <h3>Use <b>Twende</b> and you'll never have to rely on public transport again!</h3> <br>
+    </center>
+
+     
+    
+    <center><h4>If using your own car, or if using public transport is either invonvenient or uncomfortable, Twende should be the 
+        platform you use to search for your next best alternative.</h4> </center> <br>
+
+        <div class="dest-tile">
+
+        <center> <h1>  Use Twende to go to your: </h1> </center>
+
+        <img src="https://firebasestorage.googleapis.com/v0/b/twende-7e6ac.appspot.com/o/home.png?alt=media&token=a159f157-a845-4a8e-aef4-0345f9c1027a">
+
+        <b> <p>Home</p> </b>
+
+        <img src="https://firebasestorage.googleapis.com/v0/b/twende-7e6ac.appspot.com/o/school.png?alt=media&token=ad96781b-2188-469d-ad81-f417efce8ca8">
+
+        <b> <p>School</p> </b>
+
+        <img src="https://firebasestorage.googleapis.com/v0/b/twende-7e6ac.appspot.com/o/work.png?alt=media&token=a9d4398a-4100-46e4-a489-1849358e6abd">
+
+        <b> <p>Work</p> </b>
+
+        <img src="https://firebasestorage.googleapis.com/v0/b/twende-7e6ac.appspot.com/o/event.png?alt=media&token=4e6a4f99-fa4f-40ac-95d8-2e2b066c313d">
+
+        <b> <p>Event</p> </b>
+
+        </div>
+
+
+
+
+
+    <center><h4>Have a look at our registered car-owners and the passengers they already have to see if any of them could be travelling
+        your route at your time of convenience:</h4></center> <br>
+
+        <ul>
+            {{#each model as |driver|}} {{showpassengers-drivers driver=driver}} {{/each}}
+        </ul>
+
+    <div id="footer">
     <div class="newsletter-subscription">
         <label for="newsletter">Subscribe to our Newsletter</label>
         <br>
@@ -27,4 +75,5 @@
     <div class="foot">
          <p>TWENDE 2017</p>
     </div>
+
 </div>
