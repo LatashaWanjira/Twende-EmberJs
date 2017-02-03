@@ -1,0 +1,27 @@
+{{#if addNewPassenger}}
+    <br> <center><h2>New Passenger:</h2></center> <br>
+    <div>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                {{input value=name id="name"}}
+            </div>
+
+            <div class="form-group">
+                <label for="residence">Residence:</label>
+                {{input value=residence id="residence"}}
+            </div>
+
+            <div class="form-group">
+                <label for="route">Route:</label>
+                {{input value=route id="route" placeholder=drivers.route}}
+            </div>
+
+                              
+
+            <center><button {{action 'savePassenger1' drivers}}>Save</button></center>
+        </form>
+    </div>
+{{else}}
+    <center><button{{action 'passengerFormShow'}}>New Passenger</button></center>
+{{/if}}
