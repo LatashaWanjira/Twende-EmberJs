@@ -9,7 +9,7 @@ h1 {
     padding-top: 60px;
 
 }
-h2{
+h2, h3, label {
     font-family: 'Kaushan Script', cursive;
 
 }
@@ -39,6 +39,9 @@ h2{
     width: 30%;
     font-size: 30px;
     padding: 10px;
+}
+#header a {
+    color: white;
 }
 
 .glyphicon-menu-down {
@@ -92,7 +95,9 @@ h2{
 
 .carousel {
     padding: 25px;
-    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
     font-size: 15px;
     border-top: 5px solid #800000;
     border-bottom: 5px solid #800000;

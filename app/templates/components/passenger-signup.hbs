@@ -19,9 +19,9 @@
 
                               
 
-            <center><button {{action 'savePassenger1' drivers}}>Save</button></center>
+            <center><button class="driver-button" {{action 'savePassenger1' drivers}}>Save</button></center>
         </form>
     </div>
 {{else}}
-    <center><button{{action 'passengerFormShow'}}>New Passenger</button></center>
+    <center><button class="driver-button" {{action 'passengerFormShow'}}>New Passenger</button></center>
 {{/if}}
