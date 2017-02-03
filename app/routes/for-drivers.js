@@ -11,8 +11,5 @@ export default Ember.Route.extend({
             newDriver.save();
             this.transitionTo('for-drivers');
         }
-        // saveDriver(params) {
-        //      this.sendAction('saveDriver', params);
-        // }
     }
 });
